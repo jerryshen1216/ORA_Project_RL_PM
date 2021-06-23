@@ -284,10 +284,12 @@ According to the plot, we can find that the average reward increased from -100 t
 
 - Average inventory plot
 According to the plot, we can find that the reinforcement learning's policy can reduce the inventory to a low level which closes to zero.
+
 ![](https://i.imgur.com/bNlkFxq.png)
 
 - Inventory plot
 The inventory plot shows that the inventory level and backorder level were controlled between a suitable interval by the policy.
+
 ![](https://i.imgur.com/rAqURsG.png)
 
 - PM policy plot
@@ -295,6 +297,7 @@ Finally, we can see the PM's policy. According to the plot, we can see different
     - When staging 0 and  having enough inventory, RL will make machine rest
     - PM will be taken when stage 1-3 and having enough inventory
     - When stage 5, RL prefer to continue producing the product
+    
 ![](https://i.imgur.com/mynWAbW.png)
 
 
@@ -302,6 +305,7 @@ Finally, we can see the PM's policy. According to the plot, we can see different
 However, we can see the scenario when the order number increases. the PM policy will change.
 - Because of the loading increase, the policy generates by RL makes the machine keep producing most of the time
 - Only when stage 3 and having lots of backorders, PM just be taken into consideration
+
 ![](https://i.imgur.com/lerRqze.png)
 
 
