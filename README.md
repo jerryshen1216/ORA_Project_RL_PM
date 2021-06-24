@@ -66,7 +66,7 @@ Whenever we take action at a state, we can observe the environment and check the
 In this step, we may set some threshold to make the model terminate. For example, we often use the episode limit or the difference between the reward as the threshold.
 
 ## What is preventive maintenance?
-Preventive maintenance (PM) is doing the maintenance before the machine breaks down, and making the machine  operating on schedule. On the other hand,  there is corrective maintenance (CM) which is doing the repair after the machine breaks down.  In the factory, we do not want to have corrective maintenance, because it will make the schedule out of control.
+Preventive maintenance (PM) is the maintenance before the machine breaks down, and making the machine  operating on schedule. On the other hand,  there is corrective maintenance (CM) which is doing the repair after the machine breaks down.  In the factory, we do not want to have corrective maintenance, because it will make the schedule out of control.
 
 ![](https://i.imgur.com/02q7Ffs.png)
 
