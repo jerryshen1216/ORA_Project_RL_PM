@@ -1,5 +1,8 @@
 # Reinforcement learning in preventive maintenance policy
 Our final project contains two ways to solve this problem, one is reinforcement learning and the other one is robust optimization. To introduce clearly, we will split our tutorial into two parts.
+
+The other one part can see at below link:
+Robust obtimization in preventive maintenance policy
 ## Table of content
 - Introducing Markov decision process
 - Q-learning
@@ -53,13 +56,13 @@ Below is the algorithm about Q-learning:
 
 Here we will introduce the algorithm step by step:
 
-1. Step 1: initialize the Q-Table:
+1. **Step 1:** initialize the Q-Table:
 We will first build a n * m table, n means the number of states while m means the number of actions. And we can give each cell an arbitrarily value or zeros.
-2. Step 2 and Step 3: Choose and perform an action
+2. **Step 2 and Step 3:** Choose and perform an action
 These two steps will do iteratively until it came to convergence. We choose an action in the state based on the Q-table which can contain the biggest Q-value. However, the beginning value is given arbitrarily (or zero), so we do not know which action may bring more value. To handle this problem, we can use the methods call the epsilon greedy strategy. These methods have a property that will exploration randomly in the beginning, it make the agent can try different actions when the prophase.
-3. Step 4: Evaluate the action
+3. **Step 4:** Evaluate the action
 Whenever we take action at a state, we can observe the environment and check the reward and update the Q-value by the formula below.
-4. Step 5: Convergence
+4. **Step 5:** Convergence
 In this step, we may set some threshold to make the model terminate. For example, we often use the episode limit or the difference between the reward as the threshold.
 
 ## What is preventive maintenance?
